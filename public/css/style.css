@@ -1,0 +1,284 @@
+body {
+    font-family: 'Nunito';
+}
+
+#alert-popover {
+    position: fixed;
+    bottom: 18px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.alert-wrapper {
+    height: auto;
+    padding: 0;
+    width: 250px;
+}
+
+.alert-close {
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    right: 8px;
+    text-decoration: none;
+    top: 6px;
+}
+
+.alert-title {
+    color: #333;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.alert-message {
+    color: #333;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.background-login {
+    background-color: #66B2FF;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card-login {
+    background-color: white;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    position: relative;
+}
+
+.center-object {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.color-danger {
+    color: red;
+}
+
+.color-success {
+    color: lime;
+}
+
+.color-grey {
+    color: #cccccc;
+}
+
+.container-login {
+    margin: auto;
+    max-width: 375px;
+    width: 100%;
+}
+
+.dropdown-notification-item {
+    display: block;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.1rem;
+    padding-top: 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #b3d1ff;
+    border: 0;
+}
+
+.dropdown-notification-item:hover, .dropdown-notification-item:focus {
+    color: #1e2125;
+    background-color: #99c2ff;
+}
+
+.dropdown-notification-item.active, .dropdown-notification-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #66a3ff;
+}
+
+input[readonly] {
+    pointer-events: none;
+    touch-action: none;
+}
+
+.font-1 {
+    font-size: 0.6rem;
+}
+
+.font-2 {
+    font-size: 0.7rem;
+}
+
+.font-3 {
+    font-size: 0.8rem;
+}
+
+.font-4 {
+    font-size: 0.9rem;
+}
+
+.font-5 {
+    font-size: 1rem;
+}
+
+.font-6 {
+    font-size: 1.1rem;
+}
+
+.font-7 {
+    font-size: 1.2rem;
+}
+
+.font-8 {
+    font-size: 1.3rem;
+}
+
+.font-9 {
+    font-size: 1.4rem;
+}
+
+.font-10 {
+    font-size: 1.5rem;
+}
+
+.font-weight-200 {
+    font-weight: 200;
+}
+
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.font-weight-800 {
+    font-weight: 800;
+}
+
+.footer {
+    background-color: white;
+    border-radius: 2px;
+    bottom: -2px;
+    box-shadow: -2px -2px 10px #e6e6e6;
+    height: 30px;
+    overflow: hidden;
+    padding-left: 12px;
+    padding-top: 4px;
+    position: fixed;
+    width: 100%;
+    z-index: 998;
+}
+
+.footer .copyright {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+hr {
+    border: 1px solid;
+    width: 100%;
+}
+
+.notification-count {
+    background: red;
+    border-radius: 50%;
+    bottom: -10px;
+    color: white;
+    font-size: 11px;
+    right: -10px;
+    padding: 2px 6px;
+    position: absolute;
+}
+
+.popup {
+  position: absolute;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.popup-background {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    top: 0;
+    width: 100vw;
+    z-index: 1001;
+}
+
+.popup-body {
+  flex: 1 1 auto;
+  padding: 1rem;
+}
+
+.navbar {
+    align-items: center;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    color: #666666;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 650;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+
+.navbar-nav {
+    flex-direction: column;
+    list-style: none;
+}
+
+select {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 0.35rem;
+    width: 100%;
+}
+
+select[readonly] {
+    pointer-events: none;
+    touch-action: none;
+}
+
+.text-login {
+    color: #666666;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 650;
+    text-decoration: none !important;
+}
+
+.text-login:hover {
+    color: black;
+}
